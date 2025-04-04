@@ -15,8 +15,8 @@ const ContactInfo = () => {
           icon={<Mail size={20} className="text-accent" />}
           title="Email"
           content={
-            <a href="mailto:ethel.prempeh@example.com" className="text-slate hover:text-accent transition-colors">
-              ethel.prempeh@example.com
+            <a href="mailto:ethelprempeh48@gmail.com" className="text-slate hover:text-accent transition-colors">
+              ethelprempeh48@gmail.com
             </a>
           }
         />
@@ -25,8 +25,8 @@ const ContactInfo = () => {
           icon={<Phone size={20} className="text-accent" />}
           title="Phone"
           content={
-            <a href="tel:+11234567890" className="text-slate hover:text-accent transition-colors">
-              +1 (123) 456-7890
+            <a href="tel:+233535058116" className="text-slate hover:text-accent transition-colors">
+              +233 535058116
             </a>
           }
         />
