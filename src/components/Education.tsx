@@ -1,4 +1,3 @@
-
 import { useEffect } from 'react';
 
 const Education = () => {
@@ -25,43 +24,25 @@ const Education = () => {
 
   const educationData = [
     {
-      degree: "Master of Science in Computer Science",
-      school: "Stanford University",
-      period: "2018 - 2020",
-      description: "Specialized in Machine Learning and Artificial Intelligence. Thesis on Neural Networks for Natural Language Processing."
-    },
-    {
-      degree: "Bachelor of Science in Computer Science",
-      school: "Massachusetts Institute of Technology",
-      period: "2014 - 2018",
-      description: "Graduated with honors. Focused on Software Engineering and Data Structures."
-    },
-    {
-      degree: "Web Development Bootcamp",
-      school: "Coding Academy",
-      period: "2013 - 2014",
-      description: "Intensive 12-week program covering full-stack development with JavaScript, React, and Node.js."
+      degree: "BSc. Electrical and Electronics Engineering",
+      school: "University of Mines and Technology, Tarkwa",
+      period: "2020 - Present",
+      description: "Final year student focusing on electrical systems, power engineering, and supplementary studies in programming and software development."
     }
   ];
 
   const experienceData = [
     {
-      position: "Senior Frontend Developer",
-      company: "TechCorp Inc.",
-      period: "2021 - Present",
-      description: "Leading a team of developers to build enterprise web applications. Implementing CI/CD pipelines and mentoring junior developers."
+      position: "Engineering Intern",
+      company: "Dannex Aryton Starwin PLC",
+      period: "2024 (2 months)",
+      description: "Assisted with engineering projects, gained practical experience in industrial settings, and applied theoretical knowledge in real-world scenarios."
     },
     {
-      position: "Frontend Developer",
-      company: "Digital Solutions",
-      period: "2018 - 2021",
-      description: "Built responsive web applications using React and TypeScript. Improved website performance by 40% through code optimization."
-    },
-    {
-      position: "Junior Web Developer",
-      company: "WebStart Studios",
-      period: "2016 - 2018",
-      description: "Developed and maintained client websites. Collaborated with designers to implement responsive designs."
+      position: "Engineering Intern",
+      company: "Electricity Company of Ghana",
+      period: "2023 (3 months)",
+      description: "Worked on power distribution systems, assisted with maintenance and troubleshooting of electrical equipment, and gained exposure to national grid operations."
     }
   ];
 

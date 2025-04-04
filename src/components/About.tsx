@@ -1,4 +1,3 @@
-
 import { useEffect } from 'react';
 
 const About = () => {
@@ -30,25 +29,20 @@ const About = () => {
       <div className="grid grid-cols-1 md:grid-cols-3 gap-10 mt-10">
         <div className="md:col-span-2">
           <p className="text-lg mb-4 animate-on-scroll">
-            Hello! My name is Ethel and I enjoy creating things that live on the internet. 
-            My interest in web development started back in 2012 when I decided to try editing 
-            custom Tumblr themes — turns out hacking together a custom reblog button taught me a lot about HTML & CSS!
+            Hi, I'm a final-year Electrical and Electronics Engineering student based in Ghana, with a strong passion for technology and innovation. My interests lie at the intersection of software development, web development, and artificial intelligence.
           </p>
           
           <p className="text-lg mb-4 animate-on-scroll">
-            Fast-forward to today, and I've had the privilege of working at an advertising agency, 
-            a start-up, a huge corporation, and a student-led design studio. My main focus these days 
-            is building accessible, inclusive products and digital experiences at Upstatement for a variety of clients.
+            Over the years, I've developed a deep curiosity for how things work — from circuits to code — and that's what led me to explore programming alongside my engineering studies. I'm particularly fascinated by the potential of AI and machine learning to solve real-world problems, and I'm actively building my skills in this space.
           </p>
           
           <p className="text-lg mb-8 animate-on-scroll">
-            I also recently launched a course that covers everything you need to build a web app with the 
-            Spotify API using Node & React.
+            Currently, I'm working on improving my web development skills while also diving deeper into machine learning frameworks and tools. I'm always open to collaborating on projects, internships, or anything that helps me grow and contribute to the tech space in Ghana and beyond.
           </p>
           
           <div className="animate-on-scroll">
             <p className="text-accent mb-2 font-bold">Current position:</p>
-            <p className="text-white text-xl">Senior Frontend Developer at TechCorp Inc.</p>
+            <p className="text-white text-xl">Student at University of Mines and Technology, Tarkwa</p>
           </div>
         </div>
         

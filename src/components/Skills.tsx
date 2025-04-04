@@ -1,6 +1,6 @@
 
 import { useEffect } from 'react';
-import { Code, FileText, Briefcase } from 'lucide-react';
+import { Code, FileText, Briefcase, Cpu } from 'lucide-react';
 
 const Skills = () => {
   useEffect(() => {
@@ -25,26 +25,26 @@ const Skills = () => {
   }, []);
 
   const skills = [
-    { category: "Frontend", items: ["HTML5", "CSS3", "JavaScript", "React", "TypeScript", "Tailwind CSS"] },
-    { category: "Backend", items: ["Node.js", "Express", "MongoDB", "PostgreSQL", "Firebase", "GraphQL"] },
-    { category: "Tools", items: ["Git", "Docker", "Webpack", "Figma", "AWS", "CI/CD"] }
+    { category: "Programming", items: ["Python", "C++", "JavaScript", "HTML/CSS"] },
+    { category: "Engineering", items: ["ETAP", "Circuit Design", "Electronics", "Power Systems"] },
+    { category: "Tools", items: ["Git", "VS Code", "AutoCAD", "Microsoft Office"] }
   ];
 
   const skillCards = [
     {
-      title: "Web Development",
-      description: "Building responsive, modern websites and web applications with React, TypeScript and Next.js",
+      title: "Web Design",
+      description: "Creating responsive and user-friendly websites with focus on user experience and modern design principles",
       icon: <Code size={24} className="text-accent" />
     },
     {
-      title: "UI/UX Design",
-      description: "Creating intuitive, accessible user interfaces with a focus on seamless user experience",
+      title: "Software Development",
+      description: "Building applications using Python and C++ with an emphasis on efficient and maintainable code",
       icon: <FileText size={24} className="text-accent" />
     },
     {
-      title: "Project Management",
-      description: "Leading teams through Agile methodology to deliver high-quality products on schedule",
-      icon: <Briefcase size={24} className="text-accent" />
+      title: "Electrical Engineering",
+      description: "Applying electrical engineering principles to design and analyze power systems using tools like ETAP",
+      icon: <Cpu size={24} className="text-accent" />
     }
   ];
 

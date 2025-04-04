@@ -34,7 +34,7 @@ const ContactInfo = () => {
         <ContactInfoItem 
           icon={<MapPin size={20} className="text-accent" />}
           title="Location"
-          content={<p className="text-slate">San Francisco, California</p>}
+          content={<p className="text-slate">Tarkwa, Ghana</p>}
         />
       </div>
       
