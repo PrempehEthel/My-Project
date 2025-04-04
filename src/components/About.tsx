@@ -48,11 +48,7 @@ const About = () => {
         
         <div className="animate-on-scroll">
           <div className="overflow-hidden rounded-md bg-navy-light/50 border border-slate-dark/20 p-1">
-            <img 
-              src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&q=80&w=400"
-              alt="Ethel Prempeh portrait" 
-              className="rounded w-full object-cover hover:scale-105 transition-transform duration-300"
-            />
+           
           </div>
         </div>
       </div>
