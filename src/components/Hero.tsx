@@ -15,7 +15,7 @@ const Hero = () => {
       <div className={`transition-all duration-700 ${mounted ? 'opacity-100' : 'opacity-0 translate-y-10'}`}>
         <p className="text-accent mb-4 tracking-wider">Hello, my name is</p>
         <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold text-white mb-4">
-          John Doe.
+          Ethel Prempeh.
         </h1>
         <h2 className="text-3xl md:text-5xl lg:text-6xl font-bold text-slate mb-8">
           I build things for the web.

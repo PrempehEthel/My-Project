@@ -14,7 +14,7 @@ const Footer = () => {
           
           <div className="flex space-x-4 items-center">
             <p className="text-slate text-sm">
-              Designed & Built by <span className="text-accent">John Doe</span>
+              Designed & Built by <span className="text-accent">Ethel Prempeh</span>
             </p>
             
             <a 
